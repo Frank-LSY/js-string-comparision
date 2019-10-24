@@ -63,10 +63,10 @@ console.log(cos.sortMatch(Thanos, Avengers))
 
 The main characteristics of each implemented algorithm are presented below. The "cost" column gives an estimation of the computational cost to compute the similarity between two strings of length m and n respectively.
 
-|                                                                                                                                      | Measure(s)                              | Normalized? | Metric? | Type    | Cost   | Typical usage   |
+|                                                                                                                                      | 支持方法                              | 规范化? | 度量? | 形式    | 复杂度   | 典型应用   |
 | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- | ----------- | ------- | ------- | ------ | --------------- |
-| [Jaccard index](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#jaccard-index)                         | similarity<br/>distance<br />sortMatch  | Yes         | Yes     | Set     | O(m+n) |                 |
-| [Cosine similarity](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#cosine-similarity)                 | similarity<br/>distance<br />sortMatch  | Yes         | No      | Profile | O(m+n) |                 |
-| [Sorensen-Dice coefficient](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#sorensen-dice-coefficient) | similarity<br/>distance<br />sortMatch  | Yes         | No      | Set     | O(m+n) |                 |
-| [Levenshtein](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#levenshtein)                             | similarity<br />distance<br />sortMatch | No          | Yes     |         | O(m*n) |                 |
-| [Jaro-Winkler](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#jaro-winkler)                           | similarity distance<br />sortMatch      | Yes         | No      |         | O(m*n) | typo correction |
+| [雅卡尔系数](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#jaccard-index)                         | 相似性<br/>距离<br />排序比较  | Yes✅         | Yes✅     | Set     | O(m+n) |                 |
+| [余弦相似性](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#cosine-similarity)                 | 相似性<br/>距离<br />排序比较  | Yes✅         | No❌      | Profile | O(m+n) |                 |
+| [Dice系数](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#sorensen-dice-coefficient) | 相似性<br/>距离<br />排序比较   | Yes✅         | No❌      | Set     | O(m+n) |                 |
+| [莱温斯坦距离](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#levenshtein)                             | 相似性<br/>距离<br />排序比较 sortMatch | No❌          | Yes✅     |         | O(m*n) |                 |
+| [Jaro-Winkler距离](https://github.com/luozhouyang/python-string-similarity/blob/master/README.md#jaro-winkler)                           | 相似性<br/>距离<br />排序比较       | Yes✅         | No❌      |         | O(m*n) | 拼写检查 |
