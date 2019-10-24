@@ -61,6 +61,7 @@ console.log(cos.sortMatch(Thanos, Avengers))
 
 ## 概览
 对于给出的算法，他们一些特性见下表：
+
 ps:对于复杂度一列，我们给出的是计算两个长度分别为m和n的字串的相似性的时间复杂度。
 
 |                                                                                                                                      | 支持方法                              | 单位（规格化）? | 度量? | 形式    | 复杂度   | 典型应用   |
@@ -83,7 +84,3 @@ ps:对于复杂度一列，我们给出的是计算两个长度分别为m和n的
 - 字符串距离：一些算法定义字符串之间的距离，当数值为0时代表两字符串完全相同，最大距离的取值依照于算法。典型算法：莱温斯坦距离算法。
 - 单位字符串距离：该接口为字符串距离(StringDistance)的扩展，计算所得距离在[0.0,1.0]空间内。典型算法：规格化莱温斯坦距离算法。
 
-- StringSimilarity : Implementing algorithms define a similarity between strings (0 means strings are completely different).
-- NormalizedStringSimilarity : Implementing algorithms define a similarity between 0.0 and 1.0, like Jaro-Winkler for example.
-- StringDistance : Implementing algorithms define a distance between strings (0 means strings are identical), like Levenshtein for example. The maximum distance value depends on the algorithm.
-- NormalizedStringDistance : This interface extends StringDistance. For implementing classes, the computed distance value is between 0.0 and 1.0. NormalizedLevenshtein is an example of NormalizedStringDistance.
