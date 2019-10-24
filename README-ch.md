@@ -60,8 +60,8 @@ console.log(cos.sortMatch(Thanos, Avengers))
 ```
 
 ## 概览
-
-The main characteristics of each implemented algorithm are presented below. The "cost" column gives an estimation of the computational cost to compute the similarity between two strings of length m and n respectively.
+对于给出的算法，他们一些特性见下表：
+ps:对于复杂度一列，我们给出的是计算两个长度分别为m和n的字串的相似性的时间复杂度。
 
 |                                                                                                                                      | 支持方法                              | 单位（规格化）? | 度量? | 形式    | 复杂度   | 典型应用   |
 | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- | ----------- | ------- | ------- | ------ | --------------- |
@@ -76,7 +76,7 @@ The main characteristics of each implemented algorithm are presented below. The 
 很简单而且常见的问题，但总体来说我们有许多的算法来衡量文本之间的相似性和距离，我们对于他们做了一些总结归纳，并给出了一些接口。
 
 
-###规格化（单位）字符串相似性和距离
+### 规格化（单位）字符串相似性和距离
 
 - 字符串相似性：一些算法定义了字符串之间的相似性，当数值为0时代表字符串完全不同。
 - 单位字符串相似性：将字符串相似性数值映射到[0.0,1.0]空间，典型算法：Jaro-Winkler算法。
