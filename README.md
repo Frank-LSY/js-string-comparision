@@ -1,6 +1,9 @@
 
 # string-comparison
 
+**Here's [Chinese](https://github.com/Frank-LSY/js-string-comparision/blob/master/README-ch.md) version of README.**
+**[中文版README](https://github.com/Frank-LSY/js-string-comparision/blob/master/README-ch.md)**
+
 **JavaScript implementation of [tdebatty/java-string-similarity](https://github.com/tdebatty/java-string-similarity)**
 
 A library implementing different string similarity, distance and sortMatch measures. A dozen of algorithms (including Levenshtein edit distance and sibblings, Longest Common Subsequence, cosine similarity etc.) are currently implemented. Check the summary table below for the complete list...

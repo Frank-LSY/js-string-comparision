@@ -2,4 +2,4 @@
 
 
 
-**JavaScript 版本的扩展 [tdebatty/java-string-similarity](https://github.com/tdebatty/java-string-similarity)**
+** [tdebatty/java-string-similarity](https://github.com/tdebatty/java-string-similarity)的 JavaScript 扩展版本**
