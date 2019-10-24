@@ -1,6 +1,4 @@
-# String Comparison
-
-字符串比较
+# String Comparison  字符串比较
 
 
 
