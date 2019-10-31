@@ -89,7 +89,7 @@ ps:对于复杂度一列，我们给出的是计算两个长度分别为m和n的
 
 ## 算法简介
 
-### 雅卡尔系数(Jaccard index)
+### 雅卡尔系数
 
 - 雅卡尔指数（英语：Jaccard index），又称为并交比（Intersection over Union）、雅卡尔相似系数（Jaccard similarity coefficient），是用于比较样本集的相似性与多样性的统计量。雅卡尔系数能够量度有限样本集合的相似度，其定义为两个集合交集大小与并集大小之间的比例：
 $$J(A,B)=\frac{|A \cap B|}{|A \cup B|}~=\frac{|A \cap B|}{|A|+|B|-|A \cap B|}$$
@@ -123,6 +123,9 @@ $$cos\theta=\frac{\vec{a}*\vec{b}}{|\vec{a}| * |\vec{b}|}=\frac{\sum_{i=1}^{n}xi
 
 
 ### Dice系数
+<img src="http://latex.codecogs.com/gif.latex?\frac{\partial J}{\partial \theta_k^{(j)}}=\sum_{i:r(i,j)=1}{\big((\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\big)x_k^{(i)}}+\lambda \theta_k^{(j)}" />
+
+
 ### 莱温斯坦算法
 ### Jaro-Winkler算法
 
