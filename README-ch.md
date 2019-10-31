@@ -123,7 +123,7 @@ $$cos\theta=\frac{\vec{a}*\vec{b}}{|\vec{a}| * |\vec{b}|}=\frac{\sum_{i=1}^{n}xi
 
 
 ### Dice系数
-<img src="http://latex.codecogs.com/png.latex?cos\theta=\frac{\vec{a}*\vec{b}}{|\vec{a}| * |\vec{b}|}=\frac{x1x2+y1y2}{\sqrt{x1^{2}+y1^{2}} * \sqrt{x2^{2}+y2^{2}}}>
+<img src="http://latex.codecogs.com/gif.latex?cos\theta=\frac{\vec{a}*\vec{b}}{|\vec{a}| * |\vec{b}|}=\frac{x1x2+y1y2}{\sqrt{x1^{2}+y1^{2}} * \sqrt{x2^{2}+y2^{2}}}>
 
 
 ### 莱温斯坦算法
